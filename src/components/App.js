@@ -22,7 +22,7 @@ const App = () => {
   const [transactions, setTransactions] = useState([]);
 
   useEffect(() => {
-    fetch('http://www.mocky.io/v2/5c62e7c33000004a00019b05')
+    fetch('https://www.mocky.io/v2/5c62e7c33000004a00019b05')
       .then((response) => response.json())
       .then((data) => {
         setTransactions(data.transactions);
