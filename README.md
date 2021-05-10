@@ -1,3 +1,7 @@
+### Project Live
+
+https://gianlucazin.github.io/bud/
+
 In the project directory, you can run:
 
 ### `npm run serve`
